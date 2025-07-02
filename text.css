@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+
+h2{
+
+    text-align-last: right;
+}
+
+h3{
+
+    direction: rtl;
+}
+
+p{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+h4 img{
+    vertical-align: bottom;
+}
