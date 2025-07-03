@@ -1,22 +1,41 @@
 h1{
     text-align: center;
+    text-decoration-line:underline ;
+    text-decoration-color: brown;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
 }
 
 h2{
 
-    text-align-last: right;
+    text-align-last: left;
+    text-decoration: underline aqua dotted 5px;
 }
 
 h3{
 
-    direction: rtl;
+    direction: ltr;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    text-indent: 400px;
+    line-height: 30px;
+    white-space: wrap;
 }
 
 p{
     direction: rtl;
     unicode-bidi: bidi-override;
+    text-shadow: 4px 4px 7px goldenrod;
 }
 
 h4 img{
     vertical-align: bottom;
+}
+
+
+h5{
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 4px 4px 6px brown;
 }

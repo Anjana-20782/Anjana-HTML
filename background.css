@@ -1,0 +1,10 @@
+div{
+
+    width: 1000px;
+    height: 700px;
+    background-color: red;
+    background-image: url(./istockphoto-537331500-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+}
