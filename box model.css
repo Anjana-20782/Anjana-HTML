@@ -45,7 +45,7 @@ p{
   height: 10vh;
   padding: 100px;
   background-color: aqua;
-  /* box-sizing: content-box; */
-  box-sizing: border-box;
+  box-sizing: content-box;
+  /* box-sizing: border-box; */
 
 }

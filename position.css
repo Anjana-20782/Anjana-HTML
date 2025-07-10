@@ -1,0 +1,86 @@
+.main{
+
+    height: 150vh;
+    width: 500px;
+    background-color: red;
+     /* position: static; */
+    /* position: relative; */
+    top: 50px;
+    left: 60px;
+
+}
+
+.sub{
+
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top:40px;
+    right: 0px;
+}
+
+.fixed{
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    
+}
+
+.main2{
+
+    height: 150vh;
+    width: 500px;
+    background-color: greenyellow;
+}
+
+.sub2{
+
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: sticky;
+    top: 10px;
+}
+
+.main4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+        /* overflow: visible;*/
+    /* overflow: hidden;     */
+    /* overflow: scroll; */
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.main5{
+
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255, 0, 0, 0.814);
+    opacity: 50%;
+
+}
+
+.main6{
+
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+
+   .sub3{
+
+    height: 80px;
+    width: 90px;
+    background-color: blueviolet;
+    position: relative;
+    z-index: -1;
+    top: -10px;
+    right: 10px;
+   }
