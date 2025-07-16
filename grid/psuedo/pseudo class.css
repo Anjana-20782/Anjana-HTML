@@ -1,0 +1,68 @@
+ button{
+
+    width: 80px;
+    height: 30px;
+    color: gray;
+    background-color: transparent;
+    border: 1px slid black;
+    border-radius: 20px;
+    transition-duration: 3s;
+    transition-delay: 6s;
+    
+}
+
+button:hover{
+
+    background-color: green;
+    color: white;
+    border:1px  white;
+} 
+
+.main a:visited{
+
+    color: red;
+
+}
+
+.main a:active{
+
+    color: green;
+}
+
+.main a:link{
+
+    color: violet ;
+}
+
+.sub{
+
+    background-color: red;
+}
+
+.sub:focus{
+
+    background-color: green;
+}
+
+
+.div p:nth-child(3){
+
+    color: green;
+}
+
+/* .subdiv p::first-letter*/
+
+/* .subdiv p::first-line*/
+
+/* .subdiv p::before */
+
+.subdiv p::after{
+
+        content: "hello syneffo";
+}
+
+li::marker{
+
+    color: red;
+    font-size: 24px;
+}
