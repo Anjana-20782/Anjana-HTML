@@ -1,0 +1,43 @@
+button{
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* display: block; */
+    transition-duration: 3s;
+}
+
+/* .bt1{
+
+    transition-property: width;
+
+} */
+.bt1:hover{
+    /* width: 300px; */
+   /* transform: translate(200Px,200Px); */
+   /* transform: translate(-200px); */
+   /* transform:translateX(300px) ; */
+   /* transform: translateY(200px); */
+   /* transform: translateZ(100px); */
+   /* transform: rotate(180deg);*/
+   /* transform: rotateX(200deg); */
+   /* transform: rotateY('360deg'); */
+   /* transform: rotateZ('300deg'); */
+   /* transform: scaleX(3); */
+   /* transform: scaleY(4); */
+   /* transform: scaleX(0.5); */
+   /* transform: skew(60deg,60deg); */
+   /* transform: skewX(70deg); */
+   transform: skewY(80deg);
+
+
+
+
+
+   
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    
+}

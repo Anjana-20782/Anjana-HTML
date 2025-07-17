@@ -1,4 +1,4 @@
- button{
+ /* button{
 
     width: 80px;
     height: 30px;
@@ -7,7 +7,9 @@
     border: 1px slid black;
     border-radius: 20px;
     transition-duration: 3s;
-    transition-delay: 6s;
+    /* transition-delay: 3s; */
+    /* transition-property: width,height; 
+    transition-property: width,background-color;
     
 }
 
@@ -16,7 +18,9 @@ button:hover{
     background-color: green;
     color: white;
     border:1px  white;
-} 
+    width: 100px;
+    height: 60px;
+}  */
 
 .main a:visited{
 
@@ -66,3 +70,4 @@ li::marker{
     color: red;
     font-size: 24px;
 }
+
